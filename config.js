@@ -1,0 +1,80 @@
+module.exports = [
+  {
+    path: "../auth-api",
+    params: "dev",
+    url: "http://localhost:3001",
+    host: "AUTH_HOST",
+  },
+  {
+    path: "../term-api",
+    params: "dev",
+    url: "http://localhost:3002",
+    host: "TERM_HOST",
+  },
+  {
+    path: "../service-api",
+    params: "dev",
+    url: "http://localhost:3003",
+    host: "SERVICE_HOST",
+  },
+  {
+    path: "../pet-api",
+    params: "dev",
+    url: "http://localhost:3004",
+    host: "PET_HOST",
+  },
+  {
+    path: "../user-api",
+    params: "dev",
+    url: "http://localhost:3005",
+    host: "USER_HOST",
+  },
+  {
+    path: "../apartment-api",
+    params: "dev",
+    url: "http://localhost:3006",
+    host: "APARTMENT_HOST",
+  },
+  {
+    path: "../enterprise-api",
+    params: "dev",
+    url: "http://localhost:3007",
+    host: "ENTERPRISE_HOST",
+  },
+  {
+    path: "../feed-api",
+    params: "dev",
+    url: "http://localhost:3008",
+    host: "FEED_HOST",
+  },
+  {
+    path: "../notification-api",
+    params: "dev",
+    url: "http://localhost:3010",
+    host: "NOTIFICATION_HOST",
+  },
+  {
+    path: "../payment-api",
+    params: "dev",
+    url: "http://localhost:3011",
+    host: "PAYMENT_HOST",
+  },
+  {
+    path: "../acuity-gateway",
+    params: "dev",
+    url: "http://localhost:3012",
+    host: "ACUITY_HOST",
+  },
+  {
+    path: "../bff-sync-gateway",
+    params: "dev",
+    url: "http://localhost:3014",
+    host: "BFF_MOBILE",
+  },
+  {
+    path: "../bff-web",
+    params: "dev",
+    url: "http://localhost:3015",
+    host: "BFF_WEB",
+  },
+];
